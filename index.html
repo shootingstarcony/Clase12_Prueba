@@ -1,0 +1,948 @@
+   <!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Top 100 mejores escuelas de arte y diseño</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+            rel="stylesheet"
+        />
+        <style>
+            :root {
+                --color-bg: #fafafa;
+                --color-bg-nota: hsl(30, 5%, 85%);
+                --color-text: rgb(60, 60, 60);
+                --color-text-dark: rgb(30, 30, 30);
+                --color-text-light: rgba(90, 90, 90, 1);
+                --color-border: silver;
+                --font-sans: "Source Sans 3", "Helvetica Neue", Helvetica, Arial, sans-serif;
+                --font-serif: "Newsreader", Georgia, "Times New Roman", serif;
+            }
+
+            *,
+            *::before,
+            *::after {
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            body {
+                font-family: var(--font-serif);
+                color: var(--color-text);
+                background: var(--color-bg);
+                margin: 0 auto;
+                padding: 1.5rem;
+                line-height: 1.6;
+                font-size: 1.2rem;
+            }
+
+            a {
+                color: var(--color-text-dark);
+                text-decoration: underline;
+                text-decoration-style: dotted;
+                text-underline-offset: 3px;
+                transition: all ease 0.5s;
+            }
+
+            a:hover {
+                text-decoration-style: solid;
+            }
+
+            p {
+                margin-bottom: 1rem;
+            }
+
+            em {
+                font-weight: 600;
+                font-style: normal;
+            }
+
+            abbr {
+                font-size: 90%;
+                text-decoration: none;
+                cursor: help;
+            }
+
+            ul,
+            ol {
+                list-style-position: inside;
+            }
+
+            ul li,
+            ol li {
+                margin-bottom: 0.5rem;
+            }
+
+            .container {
+                margin: 0 auto;
+                width: 90%;
+                max-width: 700px;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4,
+            h5,
+            h6 {
+                font-family: var(--font-sans);
+                line-height: 1.2;
+            }
+
+            h1,
+            h2,
+            h3,
+            h4 {
+                font-weight: 700;
+            }
+
+            h5,
+            h6 {
+                font-weight: 400;
+                text-align: center;
+                color: var(--color-text-light);
+            }
+
+            h1 {
+                font-size: calc(1.5rem + 2.5vw);
+                text-align: center;
+                margin-top: 10vh;
+            }
+
+            h1:before {
+                content: "";
+                display: block;
+                width: calc(1.5rem + 5vw);
+                height: calc(1.5rem + 5vw);
+                margin: 0 auto 1rem auto;
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-globe-americas" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/></svg>');
+                background-repeat: no-repeat;
+                background-size: contain;
+            }
+
+            h2 {
+                font-size: calc(1.25rem + 1.25vw);
+                text-align: center;
+                margin-bottom: 5vh;
+            }
+
+            h3 {
+                font-size: calc(1rem + 0.75vw);
+                margin: 2rem 0 0.5rem 0;
+                line-height: 1;
+                color: dimgray;
+            }
+
+            h3#universidades,
+            h3#escuelas,
+            h3#intercambios {
+                text-indent: calc(1rem + 1vw);
+                background-image: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="dimgray" class="bi bi-globe-americas" viewBox="0 0 16 16"><path d="M8 0a8 8 0 1 0 0 16A8 8 0 0 0 8 0M2.04 4.326c.325 1.329 2.532 2.54 3.717 3.19.48.263.793.434.743.484q-.121.12-.242.234c-.416.396-.787.749-.758 1.266.035.634.618.824 1.214 1.017.577.188 1.168.38 1.286.983.082.417-.075.988-.22 1.52-.215.782-.406 1.48.22 1.48 1.5-.5 3.798-3.186 4-5 .138-1.243-2-2-3.5-2.5-.478-.16-.755.081-.99.284-.172.15-.322.279-.51.216-.445-.148-2.5-2-1.5-2.5.78-.39.952-.171 1.227.182.078.099.163.208.273.318.609.304.662-.132.723-.633.039-.322.081-.671.277-.867.434-.434 1.265-.791 2.028-1.12.712-.306 1.365-.587 1.579-.88A7 7 0 1 1 2.04 4.327Z"/></svg>');
+                background-repeat: no-repeat;
+                background-size: calc(1rem + 0.5vw);
+            }
+
+            h4 {
+                font-size: calc(1rem + 0.25vw);
+                margin: 1.25rem 0 0.75rem 0;
+                line-height: 1;
+            }
+
+            h5 {
+                font-size: 0.9rem;
+                margin-bottom: 0.5rem;
+            }
+
+            h5 a {
+                font-weight: 600;
+                color: var(--color-text-dark);
+                text-decoration: none;
+            }
+
+            h5 a:hover {
+                text-decoration: underline;
+                text-decoration-style: dotted;
+            }
+
+            h6 {
+                font-size: 0.8rem;
+                margin-bottom: 3rem;
+                letter-spacing: 0.01rem;
+            }
+
+            hr {
+                margin-top: 2rem;
+                border: 2px solid #ddd;
+            }
+
+            div.container > p:nth-child(1) {
+                font-size: 120%;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: calc(100% + 1.5rem);
+                margin: 0 -0.75rem 2.5rem -0.75rem;
+                font-family: var(--font-sans);
+                font-size: 85%;
+                font-weight: 300;
+            }
+
+            tr,
+            tr:hover {
+                transition: background ease 0.4s;
+            }
+
+            tbody tr:hover {
+                background: rgba(255, 255, 255, 0.5);
+            }
+
+            th {
+                text-align: left;
+                font-family: var(--font-sans);
+                text-transform: uppercase;
+                letter-spacing: 0.1em;
+                font-size: 90%;
+                font-weight: 600;
+            }
+
+            th,
+            td {
+                border-bottom: 1px solid var(--color-border);
+                padding: 0.4rem 0.8rem;
+            }
+
+            table th:nth-child(1),
+            table td:nth-child(1) {
+                text-align: center;
+                padding: 0.4rem 0.2rem;
+            }
+
+            table:first-of-type th:nth-child(3),
+            table:first-of-type th:nth-child(4),
+            table:first-of-type td:nth-child(3),
+            table:first-of-type td:nth-child(4) {
+                text-align: center;
+            }
+
+            td span {
+                font-size: 90%;
+                color: rgba(0, 0, 0, 0.5);
+            }
+
+            /* --- Otros elementos --- */
+            object {
+                display: block;
+                margin: 1rem -1rem;
+                width: calc(100% + 2rem);
+                height: auto;
+                aspect-ratio: 805 / 600; /* debe coincidir con el viewBox de viz.svg */
+            }
+
+            svg.grafico {
+                display: block;
+                margin: 1rem -1rem 3rem -1rem;
+                width: calc(100% + 2rem);
+                height: auto;
+                aspect-ratio: 880 / 580;
+            }
+
+            canvas {
+                margin-bottom: 3rem;
+                margin-right: 1rem;
+            }
+
+            .nota {
+                background: var(--color-bg-nota);
+                border-left: 3px solid var(--color-border);
+                padding: 0.7rem 0.5rem;
+                padding-left: 0.75rem;
+                font-size: 0.95rem;
+                margin: 2rem -0.5rem;
+                line-height: 1.3;
+            }
+
+            .nota span {
+                font-weight: 700;
+            }
+
+            dl {
+                font-family: var(--font-sans);
+                font-size: 80%;
+                letter-spacing: 0.025rem;
+                margin-bottom: 10vh;
+            }
+
+            dl dt {
+                font-weight: 700;
+            }
+
+            dl dd {
+                font-size: 90%;
+                color: var(--color-text-light);
+                margin-top: 0.25rem;
+            }
+
+            dl dd em {
+                font-style: normal;
+                font-weight: 700;
+                color: var(--color-text-light);
+            }
+            svg.grafico text {
+                font-family: var(--font-sans);
+            }
+            .grid {
+                fill: none;
+                stroke: #ddd;
+            }
+            .eje {
+                stroke: #aaa;
+            }
+            .texto {
+                font-size: 13px;
+                fill: rgb(30, 30, 30);
+            }
+            .tick {
+                font-size: 10px;
+                fill: #999;
+            }
+            .area {
+                fill-opacity: 0.2;
+                stroke-width: 2;
+                transition: fill-opacity 0.3s;
+            }
+            .area:hover {
+                fill-opacity: 0.5;
+            }
+            .puc {
+                fill: #fec60d;
+                stroke: #fec60d;
+            }
+            .uch {
+                fill: #1f5592;
+                stroke: #1f5592;
+            }
+            .udd {
+                fill: #d62728;
+                stroke: #d62728;
+            }
+            .item {
+                cursor: pointer;
+                font-size: 13px;
+            }
+            .item rect {
+                width: 14px;
+                height: 14px;
+            }
+            .nones {
+                display: none;
+            }
+            .apagado {
+                opacity: 0.3;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Ranking <abbr title="Quacquarelli Symonds">QS</abbr></h1>
+
+            <h2>Las mejores universidades del mundo y las 100 mejores escuelas de Arte y Diseño</h2>
+
+            <h5>Por <a href="https://github.com/shootingstarcony">Constanza Venegas</a></h5>
+
+            <h6>
+                <time datetime="2026-11-06T17:00-03:00"
+                    >Publicado el viernes 6 de noviembre de 2026 &nbsp;&nbsp;&nbsp; 17:00 h (GMT-3)</time
+                >
+            </h6>
+
+            <p>
+                El <em>Ranking <abbr title="Quacquarelli Symonds">QS</abbr></em> es un sistema de clasificación
+                académica desarrollado por <em>Quacquarelli Symonds</em>. Nació en 2004, en alianza con
+                <em>Times Higher Education</em>, bajo el nombre
+                <em
+                    ><abbr title="Times Higher Education - Quacquarelli Symonds">THE-QS</abbr> World University
+                    Rankings</em
+                >. Tras la separación de ambas entidades en 2009 adoptó su estructura actual, que tiene dos vertientes:
+                <em><abbr title="Quacquarelli Symonds">QS</abbr> World University Rankings</em>, centrada en el
+                desempeño institucional general, y
+                <em><abbr title="Quacquarelli Symonds">QS</abbr> World University Rankings by Subject</em>, orientada a
+                la evaluación académica por disciplinas.
+            </p>
+
+            <p>
+                La edición vigente del ranking institucional se publicó en junio de 2026.
+                <a href="https://www.topuniversities.com/world-university-rankings" target="_blank" rel="noopener"
+                    >Evaluó y posicionó 1.504 instituciones de educación superior de todo el mundo, 17 de ellas
+                    chilenas</a
+                >.
+            </p>
+
+            <p>
+                La edición vigente del ranking por disciplina se publicó en marzo de 2026.
+                <a
+                    href="https://www.topuniversities.com/university-subject-rankings/art-design"
+                    target="_blank"
+                    rel="noopener"
+                    >En Arte y Diseño evaluó y posicionó 302 instituciones, 3 de ellas chilenas</a
+                >.
+            </p>
+
+            <hr />
+
+            <h3 id="universidades">
+                Las mejores universidades del mundo según <abbr title="Quacquarelli Symonds">QS</abbr>
+            </h3>
+
+            <p>
+                En el ranking institucional, la Pontificia Universidad Católica de Chile (puesto 119) y la Universidad
+                de Chile (puesto 185) figuran entre las cinco mejores de Hispanoamérica. Con 17 instituciones entre las
+                1.504 evaluadas, Chile ocupa además el quinto lugar de América en número de instituciones representadas.
+                Estos resultados se miden, entre otros indicadores, por prestigio académico, valoración de los
+                empleadores, cantidad de docentes por estudiante e impacto de la investigación. Son fruto de políticas
+                públicas que hoy enfrentan la perspectiva de recortes presupuestarios.
+                <strong
+                    >Desafiando la competitividad del sistema a nivel global, donde instituciones como el MIT, Imperial
+                    College y Oxford lideran las primeras posiciones.</strong
+                >
+            </p>
+
+            <h4>América, Europa y otros continentes</h4>
+
+            <p>
+                El siguiente gráfico muestra cómo se distribuyen, por continente y país, las 100 mejores universidades
+                del mundo.
+                <strong>
+                    Europa y América del Norte concentran la mayor porción del Top 100, seguidas por un crecimiento
+                    sostenido de Asia, mientras que Oceanía y Latinoamérica mantienen una representación selecta pero
+                    estratégica.</strong
+                >
+            </p>
+
+            <object data="viz.svg" type="image/svg+xml">Tu navegador no soporta SVG</object>
+
+            <p>
+                Con el puesto 84, la Universidad de Buenos Aires (<abbr title="Universidad de Buenos Aires">UBA</abbr>)
+                es la única institución hispanoamericana dentro del top 100 mundial. Entre las 100 y las 200 mejores le
+                siguen la Pontificia Universidad Católica de Chile (119), la Universidad Nacional Autónoma de México
+                (145), la Universidad de Chile (185) y el Tecnológico de Monterrey (188).
+            </p>
+
+            <h4>Chile en América</h4>
+
+            <p>
+                El continente americano reúne 332 de las 1.504 instituciones consideradas en el ranking. Su distribución
+                por país es la siguiente:
+            </p>
+
+            <canvas id="identidad"></canvas>
+
+            <p>
+                Los cinco países con más instituciones son Estados Unidos (184), Canadá (30), Brasil (22), México (18) y
+                Chile (17).
+            </p>
+
+            <h4>Las universidades chilenas con escuelas de Arte y Diseño</h4>
+
+            <p>De las 17 universidades chilenas del ranking, 13 ofrecen Diseño y 6 de ellas ofrecen también Arte.</p>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Ranking</th>
+                        <th scope="col">Institución</th>
+                        <th scope="col">Diseño</th>
+                        <th scope="col">Arte</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">119</th>
+                        <td>Pontificia Universidad Católica de Chile (<abbr>PUC</abbr>)</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">185</th>
+                        <td>Universidad de Chile (<abbr>UCh</abbr>)</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">551</th>
+                        <td>Universidad de Santiago de Chile (<abbr>USACH</abbr>)</td>
+                        <td>✅</td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">655</th>
+                        <td>Universidad Adolfo Ibáñez (<abbr>UAI</abbr>)</td>
+                        <td>✅</td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">662</th>
+                        <td>Universidad de Concepción</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">851-900</th>
+                        <td>Pontificia Universidad Católica de Valparaíso (<abbr>PUCV</abbr>)</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">901-950</th>
+                        <td>Universidad de los Andes</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1001-1200</th>
+                        <td>Universidad Andrés Bello (<abbr>UNAB</abbr>)</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1001-1200</th>
+                        <td>Universidad Austral de Chile (<abbr>UACh</abbr>)</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1001-1200</th>
+                        <td>Universidad Técnica Federico Santa María (<abbr>UTFSM</abbr>)</td>
+                        <td>✅</td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1201-1400</th>
+                        <td>Universidad de la Frontera (<abbr>UFRO</abbr>)</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1201-1400</th>
+                        <td>Universidad de Talca</td>
+                        <td>✅</td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1201-1400</th>
+                        <td>Universidad del Desarrollo (<abbr>UDD</abbr>)</td>
+                        <td>✅</td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1201-1400</th>
+                        <td>Universidad Diego Portales (<abbr>UDP</abbr>)</td>
+                        <td>✅</td>
+                        <td>✅</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1401+</th>
+                        <td>Universidad Católica del Norte</td>
+                        <td>❌</td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1401+</th>
+                        <td>Universidad de Tarapacá (<abbr>UTA</abbr>)</td>
+                        <td>✅</td>
+                        <td>❌</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">1401+</th>
+                        <td>Universidad de Valparaíso (<abbr>UV</abbr>)</td>
+                        <td>✅</td>
+                        <td>❌</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>
+                En el ranking por disciplina de Arte y Diseño figuran solo tres universidades chilenas: la
+                <abbr>PUC</abbr>, la <abbr>UCh</abbr> y la <abbr>UDD</abbr>. De ellas, la <abbr>UDD</abbr> imparte
+                Diseño pero no Arte. El siguiente gráfico permite comparar a las tres en cinco dimensiones del ranking
+                institucional.
+            </p>
+
+            <svg
+                class="grafico"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 880 580"
+                role="img"
+                aria-label="Gráfico de radar: cinco dimensiones del QS World University Rankings para la PUC, la Universidad de Chile y la Universidad del Desarrollo"
+            >
+                <g transform="translate(280 300)">
+                    <g class="grid">
+                        <circle r="48" />
+                        <circle r="96" />
+                        <circle r="144" />
+                        <circle r="192" />
+                        <circle r="240" />
+                    </g>
+                    <g class="eje">
+                        <line x2="0.0" y2="-240.0" />
+                        <line x2="228.3" y2="-74.2" />
+                        <line x2="141.1" y2="194.2" />
+                        <line x2="-141.1" y2="194.2" />
+                        <line x2="-228.3" y2="-74.2" />
+                    </g>
+                    <g>
+                        <text class="tick" x="4" y="-36">20</text>
+                        <text class="tick" x="4" y="-84">40</text>
+                        <text class="tick" x="4" y="-132">60</text>
+                        <text class="tick" x="4" y="-180">80</text>
+                        <text class="tick" x="4" y="-228">100</text>
+                    </g>
+                    <text class="texto" text-anchor="middle" x="0" y="-262">
+                        <tspan x="0" dy="0">Docentes por</tspan>
+                        <tspan x="0" dy="15">estudiante</tspan>
+                    </text>
+                    <text class="texto" text-anchor="start" x="252" y="-80">
+                        <tspan x="252" dy="0">Docentes</tspan>
+                        <tspan x="252" dy="15">internacionales</tspan>
+                    </text>
+                    <text class="texto" text-anchor="middle" x="152" y="222">
+                        <tspan x="152" dy="0">Red internacional</tspan>
+                        <tspan x="152" dy="15">de investigación</tspan>
+                    </text>
+                    <text class="texto" text-anchor="middle" x="-152" y="222">
+                        <tspan x="-152" dy="0">Resultados de</tspan>
+                        <tspan x="-152" dy="15">empleabilidad</tspan>
+                    </text>
+                    <text class="texto" text-anchor="end" x="-252" y="-80">
+                        <tspan x="-252" dy="0">Sostenibilidad</tspan>
+                    </text>
+                    <polygon
+                        id="puc"
+                        class="area puc"
+                        points="0.0,-91.9 88.8,-28.8 112.4,154.7 -140.8,193.8 -184.7,-60.0"
+                    >
+                        <title>
+                            Pontificia Universidad Católica → Docentes por estudiante: 38.3; Docentes internacionales:
+                            38.9; Red internacional de investigación: 79.7; Resultados de empleabilidad: 99.8;
+                            Sostenibilidad: 80.9
+                        </title>
+                    </polygon>
+                    <polygon
+                        id="uch"
+                        class="area uch"
+                        points="0.0,-23.8 24.2,-7.9 108.3,149.1 -135.0,185.8 -151.6,-49.2"
+                    >
+                        <title>
+                            Universidad de Chile → Docentes por estudiante: 9.9; Docentes internacionales: 10.6; Red
+                            internacional de investigación: 76.8; Resultados de empleabilidad: 95.7; Sostenibilidad:
+                            66.4
+                        </title>
+                    </polygon>
+                    <polygon id="udd" class="area udd" points="0.0,-39.4 19.6,-6.4 36.1,49.7 -10.4,14.4 -117.8,-38.3">
+                        <title>
+                            Universidad del Desarrollo → Docentes por estudiante: 16.4; Docentes internacionales: 8.6;
+                            Red internacional de investigación: 25.6; Resultados de empleabilidad: 7.4; Sostenibilidad:
+                            51.6
+                        </title>
+                    </polygon>
+                </g>
+                <g transform="translate(600 60)">
+                    <text font-weight="bold" font-size="13">Instituciones</text>
+                    <g class="item" onclick="alternar('puc', this)">
+                        <rect y="16" fill="#FEC60D" />
+                        <text x="22" y="28">Pontificia Universidad Católica</text>
+                    </g>
+                    <g class="item" onclick="alternar('uch', this)">
+                        <rect y="38" fill="#1F5592" />
+                        <text x="22" y="50">Universidad de Chile</text>
+                    </g>
+                    <g class="item" onclick="alternar('udd', this)">
+                        <rect y="60" fill="#d62728" />
+                        <text x="22" y="72">Universidad del Desarrollo</text>
+                    </g>
+                    <text y="110" font-size="11" fill="#666">Puntaje QS (0 a 100) por indicador.</text>
+                    <text y="126" font-size="11" fill="#666">Clic en la leyenda para mostrar u ocultar.</text>
+                </g>
+            </svg>
+
+            <p>
+                La PUC lidera las cinco dimensiones: 38,3 puntos en docentes por estudiante, 38,9 en docentes
+                internacionales, 79,7 en red de investigación, 99,8 en empleabilidad y 80,9 en sostenibilidad. La
+                Universidad de Chile se acerca a ella en red internacional de investigación (76,8) y en resultados de
+                empleabilidad (95,7), pero queda muy atrás en docentes por estudiante (9,9) y docentes internacionales
+                (10,6). La UDD, en cambio, supera a la Universidad de Chile en docentes por estudiante (16,4), pero
+                registra puntajes bajos en red de investigación (25,6) y empleabilidad (7,4). Los puntajes están
+                normalizados de 0 a 100 respecto de la mejor institución de cada indicador.
+            </p>
+
+            <hr />
+
+            <h3 id="escuelas">
+                Las 100 mejores escuelas de Arte y Diseño según
+                <abbr title="Quacquarelli Symonds">QS</abbr>
+            </h3>
+
+            <p>
+                El <em><abbr title="Quacquarelli Symonds">QS</abbr> World University Rankings by Subject</em> se rige
+                por criterios distintos a los del ranking institucional. En Arte y Diseño no mide citas de investigación
+                ni índice H, y se apoya solo en la reputación académica y la reputación entre empleadores. Sus críticos
+                advierten que este enfoque abre un mayor margen de subjetividad. Chile queda con poca presencia: solo
+                tres universidades (la <abbr>PUC</abbr>, la <abbr>UCh</abbr> y la <abbr>UDD</abbr>) figuran en la
+                medición, con una entre las 100 mejores.
+            </p>
+
+            <h4>América</h4>
+            <p>Escuelas de Arte y Diseño de países americanos entre las 100 mejores.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Ranking</th>
+                        <th scope="col">Institución</th>
+                        <th scope="col">País</th>
+                    </tr>
+                </thead>
+                <tbody id="america"></tbody>
+            </table>
+
+            <h4>Europa</h4>
+            <p>Escuelas de Arte y Diseño de países europeos entre las 100 mejores.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Ranking</th>
+                        <th scope="col">Institución</th>
+                        <th scope="col">País</th>
+                    </tr>
+                </thead>
+                <tbody id="europa"></tbody>
+            </table>
+
+            <h4>Otros continentes</h4>
+            <p>Escuelas de Arte y Diseño de Asia y Oceanía entre las 100 mejores.</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Ranking</th>
+                        <th scope="col">Institución</th>
+                        <th scope="col">País</th>
+                    </tr>
+                </thead>
+                <tbody id="otros"></tbody>
+            </table>
+
+            <h3 id="intercambios">Oportunidades para estudiantes de la Universidad de Chile</h3>
+
+            <p>
+                La carrera de Diseño de la Facultad de Arquitectura y Urbanismo de la Universidad de Chile mantiene
+                convenios vigentes con instituciones que figuran entre las 100 mejores en Arte y Diseño según
+                <abbr title="Quacquarelli Symonds">QS</abbr>:
+            </p>
+
+            <ul>
+                <li>
+                    <em>Politecnico di Milano (Italia):</em> la opción europea mejor posicionada del ranking entre las
+                    instituciones con convenio.
+                </li>
+                <li>
+                    <em>Universidade de São Paulo (Brasil):</em> referente regional en la clasificación mundial de Arte
+                    y Diseño.
+                </li>
+                <li>
+                    <em>Universidad de Buenos Aires (Argentina):</em> una de las instituciones históricas más
+                    prominentes de Sudamérica.
+                </li>
+                <li><em>Tecnológico de Monterrey (México):</em> presente en el ranking de Arte y Diseño.</li>
+                <li>
+                    <em>Universidad Nacional Autónoma de México (México):</em> una de las universidades más grandes y
+                    reconocidas de la región en artes y humanidades.
+                </li>
+            </ul>
+
+            <div class="nota">
+                <span>Nota:</span> La disponibilidad de cupos, los requisitos de idioma y los llamados a postulación
+                deben verificarse cada año, al igual que la posición de cada institución en el Ranking
+                <abbr title="Quacquarelli Symonds">QS</abbr>.
+            </div>
+
+            <dl>
+                <dt>Fuentes</dt>
+                <dd>
+                    <em>Datos:</em> Tomados el 21 de septiembre de 2026 desde
+                    <a href="https://www.topuniversities.com/world-university-rankings" target="_blank" rel="noopener"
+                        >QS World University Rankings</a
+                    >
+                    y
+                    <a
+                        href="https://www.topuniversities.com/university-subject-rankings/art-design"
+                        target="_blank"
+                        rel="noopener"
+                        >QS World University Rankings by Subject: Art &amp; Design</a
+                    >.
+                </dd>
+                <dd>
+                    <em>Procesamiento:</em> Datos estructurados en formato JSON e incorporados a la página mediante
+                    carga asíncrona.
+                </dd>
+                <dd>
+                    <em>Contexto:</em> Proyecto desarrollado como ejercicio práctico para la asignatura
+                    <a href="https://github.com/profesorfaco/troncal" target="_blank" rel="noopener"
+                        >Diseño y Visualización de Información</a
+                    >.
+                </dd>
+            </dl>
+        </div>
+
+        <!-- Lo necesario para el gráfico interactivo en SVG -->
+        <script>
+            function alternar(id, item) {
+                document.getElementById(id).classList.toggle("nones");
+                item.classList.toggle("apagado");
+            }
+        </script>
+
+        <!-- Lo necesario para el gráfico en el canvas -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script>
+            new Chart(document.getElementById("identidad"), {
+                type: "bar",
+                data: {
+                    labels: [
+                        "Estados Unidos",
+                        "Canadá",
+                        "Brasil",
+                        "México",
+                        "Chile",
+                        "Argentina",
+                        "Colombia",
+                        "Perú",
+                        "Ecuador",
+                        "Uruguay",
+                        "Venezuela",
+                        "Costa Rica",
+                        "Cuba",
+                        "Guatemala",
+                        "República Dominicana",
+                        "Puerto Rico",
+                        "Paraguay",
+                        "Honduras",
+                        "Panamá",
+                    ],
+                    datasets: [
+                        {
+                            label: "Instituciones en el ranking",
+                            data: [184, 30, 22, 18, 17, 16, 12, 6, 6, 4, 4, 3, 2, 2, 2, 1, 1, 1, 1],
+                            backgroundColor: [
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(31,85,146)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                                "rgb(214,214,214)",
+                            ],
+                            borderWidth: 1,
+                        },
+                    ],
+                },
+                options: {
+                    indexAxis: "y",
+                    responsive: true,
+                    maintainAspectRatio: true,
+                    aspectRatio: 0.9,
+                    plugins: { legend: { display: false } },
+                    scales: { x: { ticks: { precision: 0 } } },
+                },
+            });
+        </script>
+
+        <!-- Lo necesario para rellenar las tablas con su propio JSON publicado en myJSON (el mismo que pudo usar para la evaluación pasada) -->
+        <script>
+            const ENDPOINT = "https://api.myjson.online/v1/records/e8939f12-6503-467c-88a0-129a2001ce43";
+
+            // país en inglés (último tramo de "ciudad, país") -> [país en español, zona]
+            const paises = {
+                "United Kingdom": ["Reino Unido", "europa"],
+                Italy: ["Italia", "europa"],
+                Finland: ["Finlandia", "europa"],
+                Netherlands: ["Países Bajos", "europa"],
+                Denmark: ["Dinamarca", "europa"],
+                Austria: ["Austria", "europa"],
+                Sweden: ["Suecia", "europa"],
+                France: ["Francia", "europa"],
+                Switzerland: ["Suiza", "europa"],
+                Germany: ["Alemania", "europa"],
+                Ireland: ["Irlanda", "europa"],
+                "Czech Republic": ["Chequia", "europa"],
+                Estonia: ["Estonia", "europa"],
+                Belgium: ["Bélgica", "europa"],
+                "United States": ["Estados Unidos", "america"],
+                Canada: ["Canadá", "america"],
+                Mexico: ["México", "america"],
+                Argentina: ["Argentina", "america"],
+                Chile: ["Chile", "america"],
+                Colombia: ["Colombia", "america"],
+                Brazil: ["Brasil", "america"],
+                "China (Mainland)": ["China", "otros"],
+                Australia: ["Australia", "otros"],
+                Singapore: ["Singapur", "otros"],
+                "Hong Kong": ["Hong Kong", "otros"],
+                Malaysia: ["Malasia", "otros"],
+                "South Korea": ["Corea del Sur", "otros"],
+                Thailand: ["Tailandia", "otros"],
+                Vietnam: ["Vietnam", "otros"],
+                Japan: ["Japón", "otros"],
+                India: ["India", "otros"],
+                "Saudi Arabia": ["Arabia Saudita", "otros"],
+                Taiwan: ["Taiwán", "otros"],
+            };
+
+            const cuerpos = {
+                america: document.querySelector("#america"),
+                europa: document.querySelector("#europa"),
+                otros: document.querySelector("#otros"),
+            };
+
+            fetch(ENDPOINT)
+                .then((r) => {
+                    if (!r.ok) throw new Error("HTTP " + r.status);
+                    return r.json();
+                })
+                .then((json) => {
+                    const lista = Array.isArray(json) ? json : json.data;
+                    lista
+                        .filter((e) => parseInt(e.rank, 10) <= 100) // deja fuera rangos como "101-150"
+                        .forEach((e) => {
+                            const pais = e.location.split(",").pop().trim();
+                            const [nombrePais, zona] = paises[pais] || [pais, "otros"];
+                            cuerpos[zona].insertAdjacentHTML(
+                                "beforeend",
+                                `<tr><th scope="row">${e.rank}</th><td>${e.name}</td><td>${nombrePais}</td></tr>`
+                            );
+                        });
+                })
+                .catch((err) => {
+                    console.error("No se pudo cargar el JSON:", err);
+                    Object.values(cuerpos).forEach((c) => {
+                        c.innerHTML = '<tr><td colspan="3">No se pudieron cargar los datos.</td></tr>';
+                    });
+                });
+        </script>
+    </body>
+</html>
